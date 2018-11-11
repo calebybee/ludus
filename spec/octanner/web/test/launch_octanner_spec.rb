@@ -10,3 +10,4 @@ feature 'Launch OC Tanner Website', type: :acceptance, sauce: ENV['USESAUCE'] do
     octanner.landing_page.open_menu
   end
 end
+
